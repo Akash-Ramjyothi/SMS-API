@@ -4,9 +4,9 @@ const app = express();
 const bodyParser = require("body-parser");
 require("dotenv").config();
 
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-const twilioPhoneNumber = process.env.TWILIO_PHONE_NUMBER;
+const accountSid = "AC9b01465ad1acd79a0707e064340682e6";
+const authToken = "2e5193d9f3b58843fd99dd38f3af3eed";
+const twilioPhoneNumber = "+13343779614";
 
 // Parse JSON requests
 app.use(bodyParser.json());
