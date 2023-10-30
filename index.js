@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 require("dotenv").config();
 
 const accountSid = "AC9b01465ad1acd79a0707e064340682e6";
-const authToken = "2e5193d9f3b58843fd99dd38f3af3eed";
+const authToken = "35277ac3fa31b90b1578bd4c6e689bda";
 const twilioPhoneNumber = "+13343779614";
 
 // Parse JSON requests
